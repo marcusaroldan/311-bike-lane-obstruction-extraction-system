@@ -1,0 +1,163 @@
+[
+    {
+        "service_code": "input:Outdoor Dining",
+        "service_name": "Outdoor Dining",
+        "metadata": false,
+        "type": "batch",
+        "group": "General"
+    },
+    {
+        "service_code": "Public Works Department:Street Lights:Street Light Outages",
+        "service_name": "Streetlights",
+        "metadata": true,
+        "type": "batch",
+        "group": "Lights"
+    },
+    {
+        "service_code": "input:Litter",
+        "service_name": "Litter",
+        "metadata": true,
+        "type": "batch",
+        "group": "Litter and Trash"
+    },
+    {
+        "service_code": "Parks & Recreation Department:Park Maintenance & Safety:Equipment Repair",
+        "service_name": "Broken Park Equipment",
+        "metadata": false,
+        "type": "batch",
+        "group": "Street and Park Damage"
+    },
+    {
+        "service_code": "Transportation - Traffic Division:Signs & Signals:Sign Repair",
+        "service_name": "Damaged Sign",
+        "metadata": true,
+        "type": "batch",
+        "group": "Street and Park Damage"
+    },
+    {
+        "service_code": "Parks & Recreation Department:Trees:New Tree Requests",
+        "service_name": "New Tree Requests",
+        "metadata": true,
+        "type": "batch",
+        "group": "Trees"
+    },
+    {
+        "service_code": "Mayor's 24 Hour Hotline:Abandoned Bicycle:Abandoned Bicycle",
+        "service_name": "Abandoned Bicycle",
+        "metadata": false,
+        "type": "batch",
+        "group": "Vehicle/Parking"
+    },
+    {
+        "service_code": "Mayor's 24 Hour Hotline:General Request:General Request",
+        "service_name": "Other",
+        "metadata": false,
+        "type": "batch",
+        "group": "General"
+    },
+    {
+        "service_code": "Mayor's 24 Hour Hotline:Needle Program:Needle Pickup",
+        "service_name": "Needle Cleanup",
+        "metadata": true,
+        "type": "batch",
+        "group": "Health Hazards"
+    },
+    {
+        "service_code": "Parks & Recreation Department:Park Maintenance & Safety:Parks Lighting/Electrical Issues",
+        "service_name": "Park Lights",
+        "metadata": false,
+        "type": "batch",
+        "group": "Lights"
+    },
+    {
+        "service_code": "Public Works Department:Code Enforcement:Improper Storage of Trash (Barrels)",
+        "service_name": "Residential Trash out Illegally",
+        "metadata": false,
+        "type": "batch",
+        "group": "Litter and Trash"
+    },
+    {
+        "service_code": "Transportation - Traffic Division:Enforcement & Abandoned Vehicles:Abandoned Vehicles",
+        "service_name": "Abandoned Vehicle",
+        "metadata": true,
+        "type": "batch",
+        "group": "Vehicle/Parking"
+    },
+    {
+        "service_code": "Public Works Department:Highway Maintenance:Request for Pothole Repair",
+        "service_name": "Pothole",
+        "metadata": false,
+        "type": "batch",
+        "group": "Street and Park Damage"
+    },
+    {
+        "service_code": "Public Works Department:Highway Maintenance:Sidewalk Repair (Make Safe)",
+        "service_name": "Broken Sidewalk",
+        "metadata": false,
+        "type": "batch",
+        "group": "Street and Park Damage"
+    },
+    {
+        "service_code": "Transportation - Traffic Division:Enforcement & Abandoned Vehicles:Parking Enforcement",
+        "service_name": "Illegal Parking",
+        "metadata": false,
+        "type": "batch",
+        "group": "Vehicle/Parking"
+    },
+    {
+        "service_code": "Public Works Department:Street Cleaning:Pick up Dead Animal",
+        "service_name": "Dead Animal Pickup",
+        "metadata": true,
+        "type": "batch",
+        "group": "Health Hazards"
+    },
+    {
+        "service_code": "Inspectional Services:Housing:Short Term Rental",
+        "service_name": "Short Term Rental",
+        "metadata": true,
+        "type": "batch",
+        "group": "General"
+    },
+    {
+        "service_code": "Transportation - Traffic Division:Signs & Signals:Traffic Signal Inspection",
+        "service_name": "Traffic Signal",
+        "metadata": true,
+        "type": "batch",
+        "group": "Lights"
+    },
+    {
+        "service_code": "input:Dead Tree Removal",
+        "service_name": "Dead Tree Removal",
+        "metadata": false,
+        "type": "batch",
+        "group": "Trees"
+    },
+    {
+        "service_code": "input:Tree Pruning",
+        "service_name": "Tree Pruning",
+        "metadata": false,
+        "type": "batch",
+        "group": "Trees"
+    },
+    {
+        "service_code": "input:Overflowing Trash Can",
+        "service_name": "Overflowing Trash Can",
+        "metadata": true,
+        "type": "batch",
+        "group": "Litter and Trash"
+    },
+    {
+        "service_code": "input:Rodent Sighting",
+        "service_name": "Rodent Sighting",
+        "metadata": true,
+        "type": "batch",
+        "group": "Health Hazards"
+    },
+    {
+        "service_code": "input:Illegal Graffiti",
+        "service_name": "Illegal Graffiti",
+        "metadata": true,
+        "type": "batch",
+        "group": "Illegal Graffiti"
+    }
+]
