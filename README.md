@@ -8,7 +8,7 @@ The current class and keyword breakdown is as shown below:
 <center>
 
 | Class:                     | Keyword(s):                   |
-|:--------------------------:|:-----------------------------:|
+|----------------------------|-------------------------------|
 | Bike lane obstruction      | bike, cycle, path             |
 | Bus lane obstruction       | bus, stop                     |
 | Non-resident parking       | resident, state               |
