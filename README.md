@@ -37,4 +37,6 @@ Below we can see a sample of the training documents, their assigned label, and t
 ![](lbl2vec/images/results1.PNG)
 
 ## What is the current status of the project?
-The current phase being worked on is model evaluation and hyperparameter tuning. Because of the unlabeled nature of the data, evaluation is being done of models through evaluation of labels for ground-truth subsets for each class. The amount of classes and keywords for each class are also being examined during this process, as they can influence the performance of the Lbl2Vec model.
+Because of the unsatisfactory nature of the results of the Lbl2Vec-based approach, a new strategy is being designed which better fits the dataset. That is, the dataset contains short documents which contain certain keywords which convey much of the class information. A strategy which utilizes TF-IDF for word representation would be able to capture the importance of the keywords while the short nature of the documents allows for compact document representation. From this more suitable representation, both supervised and unsupervised strategies can be implemented to classify the documents.
+
+In order to implement supervised approaches, a labeled dataset is required. This can be achieved through bootstrapping, where a small dataset of known ground-truth documents are created and used to train a supervised model. This model then expands the training set and then is retrained. This process is then repeated until a suitably-sized labeled dataset is achieved.
