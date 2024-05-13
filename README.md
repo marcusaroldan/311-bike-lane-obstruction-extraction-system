@@ -26,12 +26,11 @@ Our model achieved a Silhouette Score of 0.70 on the test data, indicating both 
 
 However, manual visual inspection of the classification produced by the document is less than ideal. A sample of descriptions from the test data are shown below, alongside their assigned label and the similarity they achieve with that label. There are obvious errors made by the model, and better results could be achieved using a rule based system to search for keywords and variants of keywords. 
 
-![](lbl2vec/images/results2)
+![](lbl2vec/images/results2.PNG)
 
 Below we can see a sample of the training documents, their assigned label, and their similarities to a subset of the labels. For each document, the variation of the similarities from a given document to each label is very low, often falling below 0.001. In other words, the documents are almost just as close to every possible label
 
-![(lbl2vec/images/results1)]
-
+![](lbl2vec/images/results1.PNG)
 
 ## What is the current status of the project?
 The current phase being worked on is model evaluation and hyperparameter tuning. Because of the unlabeled nature of the data, evaluation is being done of models through evaluation of labels for ground-truth subsets for each class. The amount of classes and keywords for each class are also being examined during this process, as they can influence the performance of the Lbl2Vec model.
