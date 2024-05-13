@@ -32,7 +32,7 @@ However, manual visual inspection of the classification produced by the document
 
 ![](lbl2vec/images/results2.PNG)
 
-Below we can see a sample of the training documents, their assigned label, and their similarities to a subset of the labels. For each document, the variation of the similarities from a given document to each label is very low, often falling below 0.001. In other words, the documents are almost just as close to every possible label
+Below we can see a sample of the training documents, their assigned label, and their similarities to a subset of the labels. For each document, the variation of the similarities from a given document to each label is very low, often falling below 0.001. In other words, the documents are almost just as close to every possible label.
 
 ![](lbl2vec/images/results1.PNG)
 
