@@ -5,6 +5,7 @@ Ask anyone who regularly moves about the city on their bike: infrastructure and 
 
 The first strategy that was tested was to utilize the [Lbl2Vec](https://wwwmatthes.in.tum.de/file/j6euhpir6wbc/Sebis-Public-Website/-/Semantic-Label-Representations-with-Lbl2Vec-A-Similarity-Based-Approach-for-Unsupervised-Text-Classification/Semantic%20Label%20Representations%20with%20Lbl2Vec.pdf) model, a varient of Word2Vec, where unlabeled text can be classified into multiple classes based on keywords selected to represent the class. The cosine-similarity function is used on the document and label embeddings to determine the best label for the document. 
 The current class and keyword breakdown is as shown below:
+<center>
 | Class:                     | Keyword(s):                   |
 |----------------------------|-------------------------------|
 | Bike lane obstruction      | bike, cycle, path             |
@@ -18,6 +19,7 @@ The current class and keyword breakdown is as shown below:
 | Double-Parking             | double, triple                |
 | No stopping zone violation | stopping, zone                |
 | Visitor Spot               | visitor, hour                 |
+</center>
 
 ## How did the Lbl2Vec Model perform?
 Because of the unlabeled nature of the dataset, traditional evaluation metrics such as Accuracy, Precision, Recall, or F1 do not apply. One way to evaluate the effectiveness of the model is through analysis of the clustering of the document and label embeddings. The Silhouette Score is a metric that measures the quality of clustering achieved by the model. It is calculated for each sample and is composed of two distances: a, the mean distance to the other samples in the same cluster (cohesion), and b, the mean distance to the samples in the nearest cluster that the sample is not part of (separation). The silhouette score for a single sample is then given by (b−a)/max(a,b).
